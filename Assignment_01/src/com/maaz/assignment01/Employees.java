@@ -1,9 +1,9 @@
 package com.maaz.assignment01;
 
 
-/**
- * Base class for all employees.
- */
+
+//  Base class for all employees.
+ 
 public class Employees {
     private String name;
     private int employeeId;
@@ -60,9 +60,9 @@ public class Employees {
             this.department = department;
         }
    }
-   /**
-    * Represents a developer, extending the Employees class.
-    */
+   
+   //   Represents a developer, extending the Employees class.
+    
    public class Developer extends Employees {
        private String programmingLanguage;
 
